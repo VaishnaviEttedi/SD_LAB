@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Visit Counter</title>
+</head>
+<body>
+    <h1>Welcome to My Website!</h1>
+    <p>You have visited this page <span id="visit-count">0</span> times.</p>
+    <script>
+        let visitCount = localStorage.getItem('page_visit_count');
+        if (!visitCount) 
+    {
+            visitCount = 0;
+        }
+        visitCount++;
+        localStorage.setItem('page_visit_count', visitCount);
+        document.getElementById('visit-count').textContent = visitCount;
+    </script>
+</body>
+</html>

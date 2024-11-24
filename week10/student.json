@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "shamitha",
+      "age": 20,
+      "cgpa": 9.25
+    },
+    {
+      "id": 2,
+      "name": "sashank",
+      "age": 22,
+      "cgpa": 9.5
+    },
+    {
+      "id": 3,
+      "name": "khyathi",
+      "age": 24,
+      "cgpa": 9.45
+    },
+    {
+      "id": 4,
+      "name": "chakri",
+      "age": 22,
+      "cgpa": 8.5
+    }
+  ]

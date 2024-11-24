@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie-Based Language Preference</title>
+</head>
+<body>
+    <h1>Welcome to the website!</h1>
+    {% if user_language %}
+        <p>Your preferred language is: {{ user_language }}</p>
+    {% else %}
+        <p>Your language preference is not set.</p>
+    {% endif %}
+    <h2>Set Your Language Preference:</h2>
+    <p><a href="/set_language/en">Set language to English</a></p>
+    <p><a href="/set_language/es">Set language to Spanish</a></p>
+</body>
+</html>
